@@ -1,5 +1,15 @@
 # @sveltejs/kit
 
+## 1.0.12
+
+### Patch Changes
+
+- fix: prerendered endpoint callable from non-prerendered server load ([#8453](https://github.com/sveltejs/kit/pull/8453))
+
+- fix: no false positive warnings for fetch uses in firefox ([#8456](https://github.com/sveltejs/kit/pull/8456))
+
+- fix: avoid unnecessary $page store updates ([#8457](https://github.com/sveltejs/kit/pull/8457))
+
 ## 1.0.11
 
 ### Patch Changes
